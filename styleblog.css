@@ -1,11 +1,10 @@
 body
 {
-    margin: 0px;
+    width: 100%;
 }
 .main
 {
-    margin-left: 20px;
-    margin-right: 120px;
+    width: 100%;
 }
 .topbar
 {
@@ -82,7 +81,7 @@ body
 }
 .boxes01
 {
-    width: 30%;
+    width: 27%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
