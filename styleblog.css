@@ -22,14 +22,14 @@ body
 .leftcol
 {
     padding-top: 5px;
-    width: 50%;
+    width: 75%;
 }
 .rightcol
 {
-    justify-content: center;
+    justify-content: right;
     padding-top: 35px;
     height: 100%;
-    width: 50%;
+    width: 25%;
 }
 .imglogo
 {
@@ -38,7 +38,7 @@ body
     flex-direction: row;
     height: 100%;
     width: 40%;
-    padding-left: 80px;
+    padding-left: 10%;
 }
 .navbar
 {
@@ -57,7 +57,7 @@ body
     display: inline-block;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: auto;
+    font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     background-color: transparent;
 }
