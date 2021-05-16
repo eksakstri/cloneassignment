@@ -594,7 +594,7 @@ html
         display: flex;
         flex-direction: column;
         height: 8px;
-        width: 45%;
+        width: 35px;
         background-color: #f8d16c;
         border-radius: 5px;
     }
@@ -626,6 +626,21 @@ html
     {
         padding-left: 5%;
         width: auto;
+    }
+}
+@media only screen and (max-width : 550px)
+{
+    .bigcontent
+    {
+        font-size: 60px;
+    }
+    .big01content
+    {
+        font-size: 60px;
+    }
+    .smallcontent
+    {
+        font-size: 15px;
     }
 }
 
