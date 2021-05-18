@@ -899,7 +899,7 @@ html
     {
         font-size: 35px;
         height: auto;
-        width: 200px;
+        width: 190px;
     }
     .big01content
     {
@@ -935,5 +935,20 @@ html
     .hamburger
     {
         margin-left: 55%;
+    }
+}
+@media only screen and (max-width : 280px)
+{
+    .image01
+    {
+        width: 150px;
+    }
+    .hamburger
+    {
+        margin-left: 45%;
+    }
+    .bigcontent
+    {
+        width: 190px;
     }
 }
