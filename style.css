@@ -897,15 +897,15 @@ html
     }
     .bigcontent
     {
-        font-size: 40px;
+        font-size: 35px;
         height: auto;
-        width: 230px;
+        width: 200px;
     }
     .big01content
     {
-        font-size: 40px;
+        font-size: 35px;
         height: auto;
-        width: 170px;        
+        width: 150px;        
     }
     .smallcontent
     {
@@ -931,5 +931,9 @@ html
     {
         font-size: 150px;        
         top: 1330px;
+    }
+    .hamburger
+    {
+        margin-left: 55%;
     }
 }
