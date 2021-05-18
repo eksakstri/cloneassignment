@@ -900,12 +900,14 @@ html
         font-size: 35px;
         height: auto;
         width: 190px;
+        background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 100%, transparent 100%, transparent 100% );
     }
     .big01content
     {
         font-size: 35px;
         height: auto;
-        width: 150px;        
+        width: 145px;   
+        background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 100%, transparent 100%, transparent 100% );     
     }
     .smallcontent
     {
@@ -946,9 +948,5 @@ html
     .hamburger
     {
         margin-left: 45%;
-    }
-    .bigcontent
-    {
-        width: 190px;
     }
 }
