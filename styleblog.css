@@ -19,15 +19,15 @@
 .rightcol
 {
     justify-content: end;
-    padding-top: 35px;
-    padding-right: 1.5vw;
+    padding-top: 15px;
+    padding-right: 4vw;
     height: 100%;
     width: 40%;
     margin-right: 1vw;
 }
 .imglogo
 {
-    margin-top: 15px;
+    margin-top: 12px;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -47,9 +47,9 @@
     font-weight: lighter;
     text-decoration: none;
     display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
     font-family: 'Bebas Neue', cursive;
     background-color: transparent;
 }    
@@ -138,7 +138,6 @@
 {
     margin-right: 0px;
     color: white;
-    width: 90.8vw;
     height: auto;
     padding-left: 8%;
     font-size: 12px;
@@ -171,41 +170,70 @@
 
 @media only screen and (max-width:760px) 
 {
+    .main
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .link
     {
         font-size: large;
     }   
     .leftcol
     {
+        margin-left: 25px;
         width: auto;
     }
     .rightcol
     {
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: 20px;
         width: auto;
     }
     .link
     {
         display: block;
     }
-    .main
-    {
-        margin-right: 0px;
-    }
     .boxes01
     {
-        width: 100%;
+        width: 90%;
     }
+    .boxes
+    {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width:600px) 
+{
     .rightcol
     {
         display: none;
     }
+    .leftcol
+    {
+        height: 50px;
+        padding-top: 5px;
+    }
+    .imglogo
+    {
+        margin-top: 0px;
+        margin-right: 10%;
+        height: 100%;
+        padding-left: 7px;
+    }
+    .image
+    {
+        height: 40px;
+    }
     .hamburger
     {
-        margin-left: 84%;
+        margin-left: auto;
+        margin-right: 10px;
         margin-block-start: 10px;
         display: flex;
         flex-direction: column;
-        width: 40%;
+        width: 10%;
         height: 50px;
         text-align: right;
     }
@@ -219,22 +247,19 @@
         background-color: black;
         border-radius: 5px;
     }
-    .boxes
-    {
-        margin-left: 0px;
-    }
-}
-@media only screen and (max-width:600px) 
-{
-    .hamburger
-    {
-        margin-left: 72%;
-    }
 }
 @media only screen and (max-width:460px) 
 {
     .lastline
     {
         font-size: 10px;
+    }
+    .leftcol
+    {
+        margin-left: 10px;
+    }
+    .hamburger
+    {
+        margin-right: 15px;
     }
 }
