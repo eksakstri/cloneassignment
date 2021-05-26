@@ -9,29 +9,31 @@ html
 .topbar
 {
     background-image: linear-gradient(to right, #293b52, #293b52 50%, #f8d16c 50%);
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
+    height: 10vh;
     position: sticky;
     top: 0px;
     cursor: pointer;
-    padding-bottom: 10px;
+}
+.topcol
+{
+    height: 73%;
+    width: 1127px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
 }
 .leftcol
 {
-    margin-top: 12px;
-    width: 60%;
+    width: 50%;
     height: 100%;
 }
 .rightcol
 {
+    width: 50%;
     padding-left: auto;
-    justify-content: left;
-    height: 100%;
-    width: 40%;
+    justify-content: flex-end;
+    height: 95%;
 }
 .hamburger
 {
@@ -43,31 +45,20 @@ html
 }
 .imglogo
 {
-    padding-top: 8px;
+    padding-top: 11px;
     display: flex;
     flex-direction: row;
-    height: 100%;
-    padding-left: 14%;
-}
-.imglogo1
-{
- 
-    justify-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 40%;
-    padding-left: 100px;
+    height: 47.5px;
 }
 .navbar
 {
     font-weight: lighter !important;
-    justify-content: center;
+    justify-content: flex-end;
     display: flex;
     flex-direction: row;
     height: 100%;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 .link
 {
@@ -75,30 +66,37 @@ html
     font-weight: lighter !important;
     text-decoration: none;
     display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     background-color: transparent;
 }
 .colorbox
 {
     background-image: linear-gradient(to right, #293b52, #293b52 50%, #f8d16c 50%);
-    flex-wrap: wrap;
     margin-right: 0px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: transparent;
-    height: 850px;
+    height: 90vh;
     width: 100%;
+}
+.item
+{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1127px;
 }
 .bluebox
 {
     flex-wrap: wrap;
     font-stretch: extra-condensed;
     width: 50%;
-    margin-top: 10px;
     height: 100%;
 }
 .redbox
@@ -109,24 +107,22 @@ html
 }
 .bigcontent
 {
-    width: 490px;
-    height: 100px;
-    margin-top: 135px;
-    margin-left: 17%;
+    width: 350px;
+    height: 75px;
+    margin-top: 55px;
     padding-top: 6px;
-    font-size: 85px;
+    font-size: 65px;
     font-weight: 600;
     color: #f8d16c;
     background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );
 }
 .big01content
 {
-    width: 355px;
-    height: 100px;
-    margin-left: 17%;
-    margin-top: 50px;
+    width: 270px;
+    height: 75px;
+    margin-top: 40px;
     padding-top: 6px;
-    font-size: 85px;
+    font-size: 65px;
     font-weight: 600;
     color: #f8d16c;
     background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );
@@ -134,9 +130,8 @@ html
 .smallcontent
 {
     margin-top: 55px;
-    margin-left: 17%;
-    margin-right: 30px;
-    font-size: 27px;
+    font-size: 20px;
+    margin-right: 20px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -149,15 +144,13 @@ html
 }
 .computer
 {
-    width: 67%;
-    height: auto;
-    max-width: 100%;
-    margin-left: 17%;
-    margin-top: 120px;
+    width: 450px;
+    margin-left: 115px;
+    margin-top: 35px;
 }
 .image01
 {
-    width: 420px;
+    width: 350px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -171,13 +164,13 @@ html
 {
     border-bottom-color: #f8d16c;
     border-bottom-style: solid;
-    border-bottom-width: 8px;
-    font-size: 20px;
+    border-bottom-width: 7px;
+    font-size: 16px;
     color: #3b3736;
     font-family: 'Playfair Display', serif;
-    width: 180px;
-    padding-left: 30px;
-    height: 90px;
+    width: 150px;
+    height: 70px;
+    text-align: center;
 }
 .projects01
 {
@@ -189,14 +182,13 @@ html
 {
     border-bottom-color: #f8d16c;
     border-bottom-style: solid;
-    border-bottom-width: 5px;
-    font-size: 22px;
+    border-bottom-width: 7px;
+    font-size: 16px;
     color: #3b3736;
     font-family: 'Playfair Display', serif;
-    width: 110px;
-    padding-left: 25px;
-    padding-bottom: 5px;
-    height: 90px;
+    width: 100px;
+    text-align: center;
+    height: 70px;
 }
 .projects01a
 {
@@ -206,26 +198,25 @@ html
 }
 .number
 {
-    margin-top: 60px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-right: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .number > *
 {
     text-align: right;
-}
-.number>div
-{
-    width: 20%;
+    width: 280px;
+    padding-left: 10px;
 }
 .con
 {
     padding: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .content01
 {
@@ -233,87 +224,90 @@ html
     font-weight: lighter !important;
     margin-top: 15px;
     text-decoration: black;
-    font-size: 28px;
+    font-size: 23.5px;
 }
 .content01a
 {
     font-family: 'Playfair Display', serif;
     font-weight: lighter !important;
     margin-top: 15px;
-    margin-left: 40px;
     text-decoration: black;
-    font-size: 28px;
+    font-size: 23.5px;
 }
 .number1
 {
     font-family: 'Bebas Neue', cursive;
-    font-weight: lighter !important;
-    font-size: 250px;
+    font-size: 200px;
+    margin-top: -30px;
+    margin-left: 30px;
     position: absolute;
-    top: 1370px;
-    left: 10%;
     color: rgb(248,209,108,0.45);
+    user-select: none;
+    height: 20%;
 }
 .number2
 {
     font-family: 'Bebas Neue', cursive;
-    font-weight: lighter !important;
-    font-size: 250px;
+    font-size: 200px;
+    margin-top: -30px;
+    margin-left: 30px;
     position: absolute;
-    top: 1370px;
-    left: 32%;
-    color: rgb(248,209,108,0.45) ;
+    color: rgb(248,209,108,0.45);
+    user-select: none;
+    height: 20%;
 }
 .number3
 {
-   
     font-family: 'Bebas Neue', cursive;
-    font-weight: lighter !important;
-    font-size: 250px;
+    font-size: 200px;
+    margin-top: -30px;
+    margin-left: 30px;
     position: absolute;
-    top: 1370px;
-    left: 52%;
     color: rgb(248,209,108,0.45);
+    user-select: none;
+    height: 20%;
 }
 .number4
 {
     font-family: 'Bebas Neue', cursive;
-    font-weight: lighter !important;
-    font-size: 250px;
+    font-size: 200px;
+    margin-top: -30px;
+    margin-left: 30px;
     position: absolute;
-    top: 1370px;
-    left: 75%;
-    color: rgb(248,209,108,0.45) ;
+    color: rgb(248,209,108,0.45);
+    user-select: none;
+    height: 20%;
 }
 .content02
 {
     font-family: 'Lato', sans-serif;
     font-weight: lighter !important;
-    margin-left: 20px;
     color: #737373;
-    font-size: 18px;
+    font-size: 14px;
+    padding-left: 60px;
 }
 .content02a
 {
     font-family: 'Lato', sans-serif;
     font-weight: lighter !important;
-    margin-left: 80px;
     color: #737373;
-    font-size: 18px;
+    font-size: 14px;
+    padding-left: 60px;
 }
 .viewmore
 {
-    padding-top: 10px;
+    padding-top: 8px;
     display: inline-block;
     font-family: 'Bebas Neue', cursive;
     font-weight: lighter !important;
-    height: 50px;
-    width: 160px;
+    height: 35px;
+    width: 120px;
     text-align: center;
     border-style: solid;
-    border-width: 3px;
-    font-size: 32px;
+    border-width: 2px;
+    font-size: 22px;
     margin-top: 20px;
+    letter-spacing: 0.7px;
 }
 .viewmore:hover
 {
@@ -331,7 +325,7 @@ html
 }
 .view01
 {
-    padding-top: 40px;
+    padding-top: 10px;
     height: 65px;
     background-color: #ebebeb;
     justify-content: center;
@@ -342,16 +336,24 @@ html
 }
 .viewmore01
 {
-    padding-top: 10px;
-    width: 50px;
+    padding-top: 8px;
     display: inline-block;
     font-family: 'Bebas Neue', cursive;
     font-weight: lighter !important;
-    height: 50px;
-    width: 100px;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+}
+.read
+{
     text-align: center;
     border-style: solid;
     border-width: 3px;
+    font-size: 22px;
+    letter-spacing: 0.7px;
 }
 .viewmore01:hover
 {
@@ -365,73 +367,70 @@ html
 }
 .blogcontent
 {
-    width: 100%;
+    width: 1127px;
     display: flex;
     flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 .blogimage
 {
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 18%;
-    width: 600px;
+    width: 480px;
 }
 .blogtext 
 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-top: 80px;
-    margin-right: 130px;
-    width: 50%;
+    width: 400px;
+    padding-left: 20px;
     text-align: center;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 500;
-}
-.read
-{
-    height: 30px;
-    width: 100px;
-    text-align: center;
-    border-style: solid;
-    border-width: 3px;
-    font-size: 32px;
 }
 .aboutus
 {
     margin-bottom: 0px;
     width: 100%;
+    background-color: #293b52; 
+}
+.address
+{
+    width: 1127px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
-    background-color: #293b52; 
 }
 .contactus
 {
-    width: 45%;
-    margin-left: 9%;
-    line-height: 2;
+    width: 50%;
+    line-height: 1.5;
+    padding-left: 10px;
 }
 .about
 {
+    margin-block-start: 10px;
+    padding-left: 30px;
     width: 50%;
     margin-top: 5px;
-    padding-right: 4.5%;
-    padding-left: 3%;
-    line-height: 2;
+    line-height: 1.5;
 }
 .heading
 {
     font-family: 'Bebas Neue', cursive;
     font-weight: lighter !important;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 23px;
     color: white;
 }
 .heading1
 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 13.6px;
     color: white;
 }
 .read
@@ -440,24 +439,35 @@ html
     color: black;
     border-color: transparent;
 }
+.foot
+{
+    width: 100%;
+    background-color: #263146;
+}
 .footer 
 {
     color: white;
     height: auto;
-    padding-left: 8.8%;
-    font-size: 18px;
+    font-size: 13.5px;
     padding-top: 13px;
     padding-bottom: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    background-color: #263146;
+    width: 1127px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-@media only screen and (max-width: 1150px)
+@media only screen and (max-width: 1250px)
 {
+    .computer
+    {
+        width: 350px;
+        margin-top: 50px;
+    }
     .number
     {
         height: auto;
+        margin-right: 20px;
     }
     .number>div
     {
@@ -467,25 +477,25 @@ html
     .number1
     {
         position: absolute;
-        top: 1350px;
+        top: 1100px;
         left: 12%;
     }
     .number2
     {
         position: absolute;
-        top: 1350px;
+        top: 1100px;
         left: 52%;
     }
     .number3
     {
         position: absolute;
-        top: 1590px;
+        top: 1320px;
         left: 12%;
     }
     .number4
     {
         position: absolute;
-        top: 1590px;
+        top: 1320px;
         left: 52%;
     }
     .imglogo
@@ -495,18 +505,63 @@ html
     .bigcontent
     {
         margin-left: 10%;
+        font-size: 55px;
+        width: 300px;
     }
     .big01content
     {
         margin-left: 10%;
+        font-size: 55px;
+        width: 230px;
     }
     .smallcontent
     {
         margin-left: 10%;
+        font-size: 18px;
+    }
+    .topcol
+    {
+        width: 900px;
+    }
+    .item
+    {
+        width: 900px;
+    }
+    .blogcontent
+    {
+        width: 900px;
+    }
+    .address
+    {
+        width: 900px;
+    }
+    .footer
+    {
+        width: 900px;
     }
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 980px)
 {
+    .topcol
+    {
+        width: 560px;
+    }
+    .item
+    {
+        width: 560px;
+    }
+    .blogcontent
+    {
+        width: 560px;
+    }
+    .address
+    {
+        width: 560px;
+    }
+    .footer
+    {
+        width: 560px;
+    }
     .computer
     {
         margin-left: 7%;
@@ -521,20 +576,21 @@ html
     }
     .bigcontent
     {
+        font-size: 70px;
+        width: 380px;
         margin-left: 2%;
     }
     .big01content
     {
+        font-size: 70px;
+        width: 300px;
         margin-left: 2%;
     }
     .smallcontent
     {
+        font-size: 18px;
         margin-left: 2%;
     }
-}
-
-@media only screen and (max-width: 900px)
-{
     .redbox
     {
         display: none;
@@ -546,7 +602,7 @@ html
     .number
     {
         height: auto;
-        padding-right: 0px;
+        padding-right: 30px;
     }
     .number>div
     {
@@ -556,25 +612,25 @@ html
     .number1
     {
         position: absolute;
-        top: 1260px;
+        top: 1060px;
         left: 9%;
     }
     .number2
     {
         position: absolute;
-        top: 1510px;
+        top: 1310px;
         left: 10%;
     }
     .number3
     {
         position: absolute;
-        top: 1750px;
+        top: 1550px;
         left: 10%;
     }
     .number4
     {
         position: absolute;
-        top: 2010px;
+        top: 1810px;
         left: 10%;
     }
     .topbar
@@ -619,7 +675,7 @@ html
     {
         padding-left: 15%;
     }
-    .aboutus
+    .address
     {
         display: flex;
         flex-direction: column-reverse;
@@ -627,11 +683,16 @@ html
     .blogimage
     {
         width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 80px;
+        text-align: center;
     }
     .blogtext
     {
         margin-right: 12%;
-        margin-top: 20px;
+        margin-top: 100px;
     }
     .about
     {
@@ -644,7 +705,7 @@ html
     }
     .footer
     {
-        padding-left: 3.2%;
+        padding-left: 3.4%;
     }
     .image01
     {
@@ -655,28 +716,49 @@ html
 
 @media only screen and (max-width : 600px)
 {
+    .topcol
+    {
+        padding-top: 5px;
+        width: 400px;
+    }
+    .item
+    {
+        width: 400px;
+    }
+    .blogcontent
+    {
+        width: 400px;
+    }
+    .address
+    {
+        width: 400px;
+    }
+    .footer
+    {
+        width: 400px;
+    }
     .number1
     {
         position: absolute;
-        top: 1220px;
+        top: 1040px;
         left: 9%;
     }
     .number2
     {
         position: absolute;
-        top: 1460px;
+        top: 1280px;
         left: 10%;
     }
     .number3
     {
         position: absolute;
-        top: 1710px;
+        top: 1530px;
         left: 10%;
     }
     .number4
     {
         position: absolute;
-        top: 1970px;
+        top: 1790px;
         left: 10%;
     }
     .rightcol
@@ -686,7 +768,7 @@ html
     .hamburger
     {
         margin-left: 70%;
-        margin-block-start: 1px;
+        margin-block-start: 10px;
         display: flex;
         flex-direction: column;
         width: 40%;
@@ -707,10 +789,6 @@ html
     {
         padding-left: 20%;
     }
-    .topbar
-    {
-        height: 65px;
-    }
     .about
     {
         padding-left: 5%;
@@ -718,11 +796,6 @@ html
     .contactus
     {
         padding-left: 15px;
-        width: auto;
-    }
-    .footer
-    {
-        padding-left: 5%;
         width: auto;
     }
     .bigcontent
@@ -739,7 +812,7 @@ html
     }
     .smallcontent
     {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 5%;
         width: 80%;
     }
@@ -752,26 +825,48 @@ html
         width: 290px;
     }
 }
-@media only screen and (max-width : 450px)
+@media only screen and (max-width : 500px)
 {
+    .imglogo
+    {
+        padding-left: 10px;
+    }
+    .topcol
+    {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
+    .item
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .blogcontent
+    {
+        width: 80%;
+    }
+    .address
+    {
+        width: 80%;
+    }
+    .footer
+    {
+        width: 80%;
+    }
     .bigcontent
     {
-        font-size: 55px;
+        font-size: 65px;
         margin-top: 80px;
-        margin-left: 5%;
-        width: 310px;
-        height: 65px;
+        width: 370px;
+        height: 75px;
     }
     .big01content
     {
-        font-size: 55px;
-        margin-left: 5%;
+        font-size: 65px;
         width: 270px;
-        height: 65px;
-    }
-    .colorbox
-    {
-        height: 600px;
+        height: 75px;
     }
     .bluebox
     {
@@ -779,7 +874,7 @@ html
     }
     .smallcontent
     {
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 5%;
         width: 80%;
     }
@@ -789,7 +884,8 @@ html
     }
     .hamburger
     {
-        margin-left: 60%;
+        margin-left: auto;
+        width: auto;
     }
     .number>div
     {
@@ -798,22 +894,22 @@ html
     .number1
     {
         font-size: 150px;
-        top: 950px;
+        top: 1000px;
     }
     .number2
     {
         font-size: 150px;
-        top: 1120px;
+        top: 1170px;
     }
     .number3
     {
         font-size: 150px;
-        top: 1280px;
+        top: 1330px;
     }
     .number4
     {
         font-size: 150px;        
-        top: 1450px;
+        top: 1500px;
     }
     .projects02
     {
@@ -880,34 +976,81 @@ html
     {
         font-size: 13px;
     }
+    .blogtext
+    {
+        width: 330px;
+        font-size: 12px;
+    }
 }
-@media only screen and (max-width : 350px)
+@media only screen and (max-width : 445px)
 {
+    .bigcontent
+    {
+        font-size: 55px;
+        width: 300px;
+    }
+    .big01content
+    {
+        font-size: 55px;
+        width: 230px;
+    }
+    .smallcontent
+    {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width : 380px)
+{
+    .topbar
+    {
+        height: 7vh;
+    }
+    .topcol
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-top: 0px;
+    }
+    .item
+    {
+        width: 300px;
+    }
+    .blogcontent
+    {
+        width: 300px;
+    }
+    .blogtext
+    {
+        width: 80%;
+    }
+    .address
+    {
+        width: 300px;
+    }
+    .footer
+    {
+        width: 300px;
+    }
     .number
     {
         margin-right: 20px;
     }
-    .topbar
-    {
-        height: 45px;
-    }
     .colorbox
     {
-        height: 500px;
+        height: 93vh;
     }
     .bigcontent
     {
-        font-size: 35px;
+        font-size: 45px;
         height: auto;
-        width: 190px;
-        background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 100%, transparent 100%, transparent 100% );
+        width: 250px;
     }
     .big01content
     {
-        font-size: 35px;
+        font-size: 45px;
         height: auto;
-        width: 145px;   
-        background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 100%, transparent 100%, transparent 100% );     
+        width: 200px;   
     }
     .smallcontent
     {
@@ -917,34 +1060,68 @@ html
     .number1
     {
         font-size: 150px;
-        top: 830px;
+        top: 1020px;
     }
     .number2
     {
         font-size: 150px;
-        top: 1000px;
+        top: 1180px;
     }
     .number3
     {
         font-size: 150px;
-        top: 1160px;
+        top: 1340px;
     }
     .number4
     {
         font-size: 150px;        
-        top: 1330px;
+        top: 1520px;
     }
     .hamburger
     {
         margin-left: 55%;
     }
+    .image01
+    {
+        width: 65%;
+    }    
+}
+@media only screen and (max-width : 350px)
+{
+    .topcol
+    {
+        width: 80%;
+    }
+    .item
+    {
+        width: 80%;
+        margin-left: 10px;
+    }
+    .blogcontent
+    {
+        width: 80%;
+    }
+    .address
+    {
+        width: 80%;
+    }
+    .footer
+    {
+        width: 80%;
+    }
+    .bigcontent
+    {
+        font-size: 35px;
+        width: 200px;
+    }
+    .big01content
+    {
+        font-size: 35px;
+        width: 160px;
+    }
 }
 @media only screen and (max-width : 280px)
 {
-    .image01
-    {
-        width: 150px;
-    }
     .hamburger
     {
         margin-left: 45%;
