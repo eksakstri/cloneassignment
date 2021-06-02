@@ -8,11 +8,14 @@ html
 }
 .topbar
 {
-    background-image: linear-gradient(to right, #293b52, #293b52 50%, #f8d16c 50%);
-    height: 10vh;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-color: white;
+    opacity: 1;
+    height: 67px;
     position: sticky;
     top: 0px;
     cursor: pointer;
+    z-index: 1;
 }
 .topcol
 {
@@ -45,7 +48,7 @@ html
 }
 .imglogo
 {
-    padding-top: 11px;
+    padding-top: 8px;
     display: flex;
     flex-direction: row;
     height: 47.5px;
@@ -79,7 +82,7 @@ html
     display: flex;
     align-items: center;
     flex-direction: row;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
 }
 .item
@@ -236,6 +239,7 @@ html
 }
 .number1
 {
+    z-index: 0;
     font-family: 'Bebas Neue', cursive;
     font-size: 200px;
     margin-top: -30px;
@@ -247,6 +251,7 @@ html
 }
 .number2
 {
+    z-index: 0;
     font-family: 'Bebas Neue', cursive;
     font-size: 200px;
     margin-top: -30px;
@@ -258,6 +263,7 @@ html
 }
 .number3
 {
+    z-index: 0;    
     font-family: 'Bebas Neue', cursive;
     font-size: 200px;
     margin-top: -30px;
@@ -269,6 +275,7 @@ html
 }
 .number4
 {
+    z-index: 0;    
     font-family: 'Bebas Neue', cursive;
     font-size: 200px;
     margin-top: -30px;
@@ -432,6 +439,7 @@ html
     font-weight: 400;
     font-size: 13.6px;
     color: white;
+    line-height: 1.8;
 }
 .read
 {
@@ -635,7 +643,7 @@ html
     }
     .topbar
     {
-        background-image: linear-gradient(to right, #293b52, #293b52 100%);
+        background-image: white;
     }
     .colorbox
     {
@@ -643,7 +651,7 @@ html
     }
     .link
     {
-        color: #f8d16c;
+        color: black;
     }
     .leftcol
     {
@@ -782,7 +790,7 @@ html
         flex-direction: column;
         height: 5px;
         width: 35px;
-        background-color: #f8d16c;
+        background-color: black;
         border-radius: 5px;
     }
     .imglogo
